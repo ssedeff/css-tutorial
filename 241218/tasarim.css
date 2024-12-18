@@ -1,0 +1,80 @@
+/*Genel Biçimlendirme*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* genişlik ve yüksekliğe border ve padding dahil*/
+}
+
+body{
+    font-family: "Raleway", serif;
+    font-weight: 400;
+}
+.ayrac{
+    margin: 10px auto;
+    border-bottom: 1px solid #fff;
+}
+/*header etiket bölmü*/
+header{
+    background-color: #005670;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header ul{
+    display: flex;/*içindeki nesneler esnek olur*/
+    justify-content: center;/*içeriği hizalama*/
+    list-style: none; 
+
+}
+
+#menu a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px  8px  0px 8px;
+}
+
+/*main bölümü*/
+main{
+    display: flex;
+    gap: 16px;/*içinde ki nesneler arasında boşluk bırakma*/
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+main .content{
+    flex: 9;
+    background-color: #8db9ca;
+    padding: 16px;
+    
+}
+
+main aside{
+    flex: 3;
+    background-color: #8db9ca;
+    padding: 16px;
+}
+
+section h2{
+    margin-bottom: 5px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside a{
+    color: #222;
+    line-height: 150%;
+    text-decoration: none;
+}
+/*footer bölü*/
+footer{
+    background-color: #005670;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center; 
+}
