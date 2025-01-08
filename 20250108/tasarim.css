@@ -1,0 +1,11 @@
+body{
+    background-image: url(res/resim.jpg);
+    background-size: cover;
+}
+header{
+    background-color: #ffffff82;
+    padding:20px 0;
+}
+#logo{
+    width: 50px;
+}
