@@ -1,0 +1,38 @@
+header{
+    background-color: #7f81a0c5;
+}
+#top-menu a{
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 25px 5px;
+}
+#top-menu a:hover{
+    background-color: #5b5c70;
+    opacity: 50%;
+    transition: 1s;
+}
+#logo{
+    padding: 10px 0;
+    padding-bottom: 2px;
+}
+.kitap{
+    background-color: #305472b3;  
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+}
+.kitap img,p{
+    width: 100%;
+    font-size:medium ;
+    text-align: left;
+}
+#miktar{
+    background-color: #6494edb8;
+    color: #3e5989;
+}
+footer{
+    background-color: #7f81a0c5;
+    text-align: center;
+    padding: 10px 0;
+}

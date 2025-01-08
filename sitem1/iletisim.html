@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişime Geçin</title>
+    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="sablon.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-2" >
+                    <div id="logo">
+                        <a href="index.html"><img src="logo.png" alt="..." width="50px"></a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <nav id="top-menu">
+                        <ul class="d-flex">
+                            <li><a href="index.html">Anasayfa</a></li>
+                            <li><a href="urunler.html">Ürünler</a></li>
+                            <li><a href="iletisim.html">İletişim</a></li>
+                            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form action="kaydet.html" method="post">
+        <fieldset class="form">
+            <legend>İletişime Geçme</legend>
+            <input type="text" id="ad" name="ad" placeholder="Adınızı girin" required maxlength="20" size="20" autocomplete="off"><br><br>
+            <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin"autocomplete="off"><br><br>
+            <input type="radio" name="cinsiyet" id="kiz">
+           <label for="kiz">Kız</label>
+           <input type="radio" name="cinsiyet" id="erkek">
+           <label for="erkek">Erkek</label><br><br>
+           <select id="bolum" name="bolum">
+            <option value="1">Bilgi almak istiyorum</option>
+            <option value="2">Öneride bulunmak istiyorum</option>
+            <option value="3">Şikayetimi iletmek istiyorum</option>
+           </select><br><br>
+            <textarea name="not" id="not" cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam molestiae eum architecto accusamus, soluta fugit maiores numquam doloremque. Nisi atque quibusdam deserunt ipsa repellat enim perferendis voluptate tempora placeat!</textarea>
+            <br>
+            <button type="submit">GÖNDER</button>
+            <button type="reset">TEMİZLE</button>
+            <button type="button"><a href="index.html">ANA SAYFA</a></button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
