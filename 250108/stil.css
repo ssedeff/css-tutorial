@@ -1,0 +1,30 @@
+body{
+    background: url(resim.jpg);
+    background-size: cover;
+    font-family: "Playwrite IE Guides", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.461);
+    padding: 10px 0;
+}
+#logo img{
+    background: url(logo.png);
+    width: 50px;
+}
+main{
+    min-height: 87vh;
+}
+footer{
+    background-color: rgb(191, 190, 190);
+    padding: 10px 0;
+}
+.icons img{
+    padding-right:10px ;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
